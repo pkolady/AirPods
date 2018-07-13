@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<title>Students and Seniors United</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="images/smalllogo.png">
+<link href="https://fonts.googleapis.com/css?family=Lato:300|Work+Sans:600" rel="stylesheet">
+<link rel="stylesheet" href="main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="index.js">
+</script>
+<body>
+
+<!-- Navbar (sit on top) -->
+<nav id="nav">
+  <ul>
+      <a href="index.html"><li id="logo"><img id="logo1" src="images/logo.png"><img id="logo2" src="images/smalllogo.png"></li></a>
+    <div id="mainnav">
+      <a href="contact.html"><li class="navig">CONTACT</li></a>
+      <div class="dropdown" id="getin">
+        <a><li class="navig">GET INVOLVED &#9662</li></a>
+        <div id="dropdown-content2">
+                <a href="volunteer.html">VOLUNTEER</a>
+                <a href="donate.html">DONATE</a>
+                <a href="resources.html">RESOURCES</a>
+        </div>
+      </div>
+      <a href="work.html"><li class="navig">WORK</li></a>
+      <div class="dropdown" id="abt">
+        <a><li class="navig">ABOUT &#9662</li></a>
+        <div id="dropdown-content">
+                <a href="story.html">STORY</a>
+                <a href="mission.html">MISSION</a>
+                <a href="ourteam.html">OUR TEAM</a>
+        </div>
+      </div>
+    </div>
+    <div class="drop">
+        <div class="container1" onclick="rotate(this)" id="open">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+        </div>
+        <div id="expand">
+          <div class="dropdown2" id="abt">
+            <a id="about5"><li class="navigate">ABOUT &#9662</li></a>
+            <div id="dropdown-content3">
+                    <a href="story.html">STORY</a>
+                    <a href="mission.html">MISSION</a>
+                    <a href="ourteam.html">OUR TEAM</a>
+            </div>
+          </div>
+          <a href="work.html"><li class="navigate">WORK</li></a>
+          <div class="dropdown2" id="getin">
+            <a id="getin5"><li class="navigate">GET INVOLVED &#9662</li></a>
+            <div id="dropdown-content4">
+                    <a href="volunteer.html">VOLUNTEER</a>
+                    <a href="donate.html">DONATE</a>
+                    <a href="resources.html">RESOURCES</a>
+            </div>
+          </div>
+          <a href="contact.html"><li class="navigate">CONTACT</li></a>
+        </div>
+      </div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Students and Seniors United Blog</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5><!--Title description, Dec 7, 2017--></h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p><!--Title --></p>
+      <p><!-- enter post --></p>
+    </div>
+    <div class="card">
+     
+
+<div id="social">
+  <div class="socialcontainer">
+    <a href="https://www.facebook.com/StudentsAndSeniorsUnited/" class="fa fa-facebook"></a>
+  </div>
+  <div class="socialcontainer">
+    <a href="#" class="fa fa-snapchat"></a>
+  </div>
+  <div class="socialcontainer">
+    <a href="#" class="fa fa-youtube"></a>
+  </div>
+  <div class="socialcontainer">
+    <a href="https://www.instagram.com/studentsandseniorsunited/" class="fa fa-instagram"></a>
+  </div>
+</div>
+<div id="footer">
+  <a href="mission.html" class="foota">Mission</a>
+  <a href="ourteam.html" class="foota">Our Team</a>
+  <a href="donate.html" class="foota">Donate</a>
+  <a href="contact.html" class="foota">Contact</a>
+  <p id="email">Students & Seniors United. 2018.</strong></p>
+</div>
+
+</body>
+</html>
+
+</body>
+</html>

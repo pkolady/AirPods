@@ -707,7 +707,7 @@ h1 {
 	position: relative;
 }
 #blogbody {
-	padding: 10px 0px 130px 0px;
+	padding: 10px 0px 65px 0px;
 	margin-top: 4px;
 	text-align: center;
 	position: relative;
@@ -721,7 +721,7 @@ h1 {
 	text-align: left;
 	padding: 0% 20%;
 	line-height: 40px;
-	margin-bottom: 80px;
+	margin-bottom: 25px;
 }
 
 #blogbody a {

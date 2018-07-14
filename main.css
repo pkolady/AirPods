@@ -641,6 +641,7 @@ h1 {
 	color: white;
 	background-color: deepskyblue;
 }
+
 /* Blog */
 #bloghead {
 	padding: 0px;
@@ -679,7 +680,32 @@ h1 {
 	background-size: 100%;
 	height: 400px;
 }
-
+#blogtitle{
+	padding: 40px 0px 130px 0px;
+	margin-top: 400px;
+	text-align: center;
+	position: relative;
+	z-index: 50;
+	background-color: white;
+}
+#blogtitle p{
+	font-size: 35px;
+	color: #777;
+	text-align: left;
+	padding: 0% 20%;
+	line-height: 40px;
+	margin-bottom: 80px;
+}
+#blogtitle a {
+	padding: 20px 40px;
+	margin: 20px 20px;
+	background-color: white;
+	outline: 0;
+	font-size: 26px;
+	border-radius: 10px;
+	transition-duration: 0.2s;
+	position: relative;
+}
 #blogbody {
 	padding: 40px 0px 130px 0px;
 	margin-top: 400px;

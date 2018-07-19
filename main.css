@@ -332,7 +332,7 @@ h1 {
 	background-size: 100%;
 	padding: 250px 0px;
 	-webkit-clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
-  	clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
+  	clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
 }
 
 #service h1 {
